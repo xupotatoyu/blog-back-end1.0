@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev nodemon ./bin/www.js",
+    "prd": "cross-env NODE_ENV=production nodemon ./bin/www.js"
+  },
+  "dependencies": {
+    "redis": "^2.8.0"
+  }
+}
